@@ -6,6 +6,7 @@
     justify-content: space-around;
 
     color: white;
+    position: relative; 
 }
 
 .iconImg{
@@ -35,4 +36,25 @@
     position: absolute;
     top:-5px;
     right: -5px;
+}
+
+.notifications{
+    position: absolute;
+    top: 50px;
+    right:0px;
+    background-color: white;
+    color: black;
+    font-weight: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.notification{
+    padding: 5px;
+    font-size: 14px;
+}
+.nButton{
+    width:80%;
+    padding: 5px;
+    margin-top: 10px
 }
